@@ -5,20 +5,20 @@ Svelte UI components base on weui
 - [x] Badge
 - [x] Button
 - [] Form
-- [] List
-- [] Slider
+- [x] Cell
+- [x] Slider
 - [] Uploader
 - [] Article
-- [] Badge
-- [] Flex
+- [x] Badge
+- [x] Flex
 - [x] Footer
 - [] Gallery 
 - [] Grid
-- [] Icons
+- [x] Icons
 - [] Loadmore
 - [] Panel
-- [] Preview
-- [] Progress
+- [x] Preview
+- [x] Progress
 - [] Actionsheet
 - [] Dialog
 - [] Half-screen Dialog
