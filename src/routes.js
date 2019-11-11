@@ -8,6 +8,7 @@ import Preview from "./pages/Preview.svelte";
 import Slider from "./pages/Slider.svelte";
 import Cell from "./pages/Cell.svelte";
 import Panel from "./pages/Panel.svelte";
+import Toast from "./pages/Toast.svelte";
 
 const routes = {
   '/': Home,
@@ -19,6 +20,7 @@ const routes = {
   '/slider': Slider,
   '/cell': Cell,
   '/panel': Panel,
+  '/toast': Toast,
   '*': NotFound
 };
 

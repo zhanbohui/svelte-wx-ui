@@ -1,6 +1,7 @@
 <template>
   <i
     style="width: {size}px; height: {size}px;"
+    class:weui-loading={type == 'loading'}
     class:weui-icon-arrow="{type === 'arrow'}"
     class:weui-icon-arrow-bold="{type === 'arrow-bold'}"
     class:weui-icon-back-arrow="{type === 'back-arrow'}"

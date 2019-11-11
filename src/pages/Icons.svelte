@@ -9,6 +9,7 @@
 <script>
   import Icon from "../components/Icon/Icon.svelte";
   let icons = [
+    'loading',
     'arrow',
     'arrow-bold',
     'back-arrow',

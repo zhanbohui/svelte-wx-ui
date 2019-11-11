@@ -25,7 +25,7 @@ Svelte UI components base on weui
 - [] Half-screen Dialog
 - [] Msg
 - [] Picker
-- [] Toast
+- [x] Toast
 - [] Navbar
 - [] Tabbar
 - [] SearchBar

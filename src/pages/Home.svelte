@@ -9,7 +9,8 @@
 </template>
 
 <script>
-  import Cell from "../components/Cell/Cell.svelte";
+  import Toast from "../components/Toast/Toast.svelte";
+    import Cell from "../components/Cell/Cell.svelte";
   import Group from "../components/Cell/Group.svelte";
   let components = [
     {
@@ -39,6 +40,10 @@
     {
       name: 'panel',
       router: '/panel'
+    },
+    {
+      name: 'toast',
+      router: '/toast'
     },
     {
       name: 'footer',
