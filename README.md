@@ -5,6 +5,7 @@ Svelte UI components base on weui
 - [x] Badge
 - [x] Button
 - [] Form
+- [x] Group
 - [x] Cell
 - [x] Slider
 - [] Uploader
@@ -16,7 +17,7 @@ Svelte UI components base on weui
 - [] Grid
 - [x] Icons
 - [] Loadmore
-- [] Panel
+- [x] Panel
 - [x] Preview
 - [x] Progress
 - [] Actionsheet

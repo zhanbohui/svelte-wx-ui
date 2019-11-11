@@ -6,6 +6,8 @@ import Button from "./pages/Button.svelte";
 import Progress from "./pages/Progress.svelte";
 import Preview from "./pages/Preview.svelte";
 import Slider from "./pages/Slider.svelte";
+import Cell from "./pages/Cell.svelte";
+import Panel from "./pages/Panel.svelte";
 
 const routes = {
   '/': Home,
@@ -14,7 +16,9 @@ const routes = {
   '/button': Button,
   '/progress': Progress,
   '/preview': Preview,
-  '/Slider': Slider,
+  '/slider': Slider,
+  '/cell': Cell,
+  '/panel': Panel,
   '*': NotFound
 };
 

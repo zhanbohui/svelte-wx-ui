@@ -1,19 +1,56 @@
 <template>
-  <a href="/" use:link>home</a>
-  <a href="/icon" use:link>icons</a>
-  <a href="/footer" use:link>footer</a>
-  <a href="/button" use:link>button</a>
-  <a href="/progress" use:link>progress</a>
-  <a href="/preview" use:link>preview</a>
-  <a href="/slider" use:link>slider</a>
-  <a href="/404" use:link>404</a>
-  <Group title={'组件'}>
-    <Cell title={'icons'} isLink={true}></Cell>
-  </Group>
+  <div class="demo">
+    <Group title="组件">
+      {#each components as {name, router} }
+        <Cell title={name} isLink={true} router={router}></Cell>
+      {/each}
+    </Group>
+  </div>
 </template>
 
 <script>
   import Cell from "../components/Cell/Cell.svelte";
   import Group from "../components/Cell/Group.svelte";
-  import { link } from 'svelte-spa-router';
+  let components = [
+    {
+      name: 'icon',
+      router: '/icon'
+    },
+    {
+      name: 'button',
+      router: '/button'
+    },
+    {
+      name: 'progress',
+      router: '/progress'
+    },
+    {
+      name: 'preview',
+      router: '/preview'
+    },
+    {
+      name: 'slider',
+      router: '/slider'
+    },
+    {
+      name: 'cell',
+      router: '/cell'
+    },
+    {
+      name: 'panel',
+      router: '/panel'
+    },
+    {
+      name: 'footer',
+      router: '/footer'
+    }
+  ];
 </script>
+
+<style>
+  .demo {
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+  }
+</style>
