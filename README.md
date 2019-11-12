@@ -1,5 +1,5 @@
 # svelte-wx-ui
-Svelte UI components base on weui
+Svelte UI components base on weui, come to see [document](https://zhanbohui.github.io/svelte-wx-ui/)
 
 ### Components
 - [x] Badge
