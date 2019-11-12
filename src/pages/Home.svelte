@@ -50,6 +50,14 @@
       router: '/toast'
     },
     {
+      name: 'dialog',
+      router: '/dialog'
+    },
+    {
+      name: 'loadmore',
+      router: '/loadmore'
+    },
+    {
       name: 'footer',
       router: '/footer'
     }

@@ -16,7 +16,7 @@ Svelte UI components base on weui
 - [] Gallery 
 - [] Grid
 - [x] Icons
-- [] Loadmore
+- [x] Loadmore
 - [x] Panel
 - [x] Preview
 - [x] Progress

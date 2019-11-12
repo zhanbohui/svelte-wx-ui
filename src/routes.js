@@ -10,6 +10,8 @@ import Cell from "./pages/Cell.svelte";
 import Panel from "./pages/Panel.svelte";
 import Toast from "./pages/Toast.svelte";
 import Flex from "./pages/Flex.svelte";
+import Loadmore from "./pages/Loadmore.svelte";
+import Dialog from "./pages/Dialog.svelte";
 
 const routes = {
   '/': Home,
@@ -23,6 +25,8 @@ const routes = {
   '/flex': Flex,
   '/panel': Panel,
   '/toast': Toast,
+  '/dialog': Dialog,
+  '/loadmore': Loadmore,
   '*': NotFound
 };
 
