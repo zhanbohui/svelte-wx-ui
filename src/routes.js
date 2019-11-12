@@ -12,6 +12,7 @@ import Toast from "./pages/Toast.svelte";
 import Flex from "./pages/Flex.svelte";
 import Loadmore from "./pages/Loadmore.svelte";
 import Dialog from "./pages/Dialog.svelte";
+import Picker from "./pages/Picker.svelte";
 
 const routes = {
   '/': Home,
@@ -26,6 +27,7 @@ const routes = {
   '/panel': Panel,
   '/toast': Toast,
   '/dialog': Dialog,
+  '/picker': Picker,
   '/loadmore': Loadmore,
   '*': NotFound
 };

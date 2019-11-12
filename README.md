@@ -20,11 +20,11 @@ Svelte UI components base on weui
 - [x] Panel
 - [x] Preview
 - [x] Progress
-- [] Actionsheet
-- [] Dialog
+- [x] Actionsheet
+- [x] Dialog
 - [] Half-screen Dialog
 - [] Msg
-- [] Picker
+- [x] Picker
 - [x] Toast
 - [] Navbar
 - [] Tabbar

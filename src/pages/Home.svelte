@@ -54,7 +54,11 @@
       router: '/dialog'
     },
     {
-      name: 'loadmore',
+      name: 'picker',
+      router: '/picker'
+    },
+    {
+      name: 'load-more',
       router: '/loadmore'
     },
     {
