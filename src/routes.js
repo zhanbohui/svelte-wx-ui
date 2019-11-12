@@ -13,6 +13,8 @@ import Flex from "./pages/Flex.svelte";
 import Loadmore from "./pages/Loadmore.svelte";
 import Dialog from "./pages/Dialog.svelte";
 import Picker from "./pages/Picker.svelte";
+import SearchBar from "./pages/SearchBar.svelte";
+import Navbar from "./pages/Navbar.svelte";
 
 const routes = {
   '/': Home,
@@ -29,6 +31,8 @@ const routes = {
   '/dialog': Dialog,
   '/picker': Picker,
   '/loadmore': Loadmore,
+  '/navbar': Navbar,
+  '/searchbar': SearchBar,
   '*': NotFound
 };
 

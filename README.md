@@ -26,6 +26,6 @@ Svelte UI components base on weui, come to see [document](https://zhanbohui.gith
 - [] Msg
 - [x] Picker
 - [x] Toast
-- [] Navbar
+- [x] Navbar
 - [] Tabbar
-- [] SearchBar
+- [x] SearchBar

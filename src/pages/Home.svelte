@@ -64,6 +64,14 @@
     {
       name: 'footer',
       router: '/footer'
+    },
+    {
+      name: 'Navbar',
+      router: '/navbar'
+    },
+    {
+      name: 'search-bar',
+      router: '/searchbar'
     }
   ];
 </script>
