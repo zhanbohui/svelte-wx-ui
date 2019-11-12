@@ -38,6 +38,10 @@
       router: '/cell'
     },
     {
+      name: 'flex',
+      router: '/flex'
+    },
+    {
       name: 'panel',
       router: '/panel'
     },

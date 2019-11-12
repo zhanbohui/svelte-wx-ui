@@ -9,6 +9,7 @@ import Slider from "./pages/Slider.svelte";
 import Cell from "./pages/Cell.svelte";
 import Panel from "./pages/Panel.svelte";
 import Toast from "./pages/Toast.svelte";
+import Flex from "./pages/Flex.svelte";
 
 const routes = {
   '/': Home,
@@ -19,6 +20,7 @@ const routes = {
   '/preview': Preview,
   '/slider': Slider,
   '/cell': Cell,
+  '/flex': Flex,
   '/panel': Panel,
   '/toast': Toast,
   '*': NotFound
