@@ -17,6 +17,7 @@ import SearchBar from "./pages/SearchBar.svelte";
 import Navbar from "./pages/Navbar.svelte";
 import Switch from "./pages/Switch.svelte";
 import Textarea from "./pages/Textarea.svelte";
+import Input from "./pages/Input.svelte";
 
 const routes = {
   '/': Home,
@@ -25,6 +26,7 @@ const routes = {
   '/button': Button,
   '/switch': Switch,
   '/textarea': Textarea,
+  '/input': Input,
   '/progress': Progress,
   '/preview': Preview,
   '/slider': Slider,

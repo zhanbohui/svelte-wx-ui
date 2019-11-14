@@ -30,6 +30,10 @@
       router: '/textarea'
     },
     {
+      name: 'input',
+      router: '/input'
+    },
+    {
       name: 'progress',
       router: '/progress'
     },

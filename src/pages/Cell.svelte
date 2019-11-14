@@ -6,13 +6,13 @@
     </Group>
     <Group title="带图标的列表项">
       <Cell value="说明文字">
-      <span slot="title">
+      <span>
         <Icon></Icon>
         标题文字
       </span>
       </Cell>
       <Cell value="说明文字">
-      <span slot="title">
+      <span >
         <Icon></Icon>
         标题文字
       </span>
@@ -28,10 +28,10 @@
     </Group>
     <Group title={"带跳转的列表项"}>
       <Cell title="标题文字" value="说明文字" isLink>
-        <span slot="icon"><Icon></Icon></span>
+        <span slot="header"><Icon></Icon></span>
       </Cell>
       <Cell title="标题文字" value="说明文字" isLink>
-        <span slot="icon"><Icon></Icon></span>
+        <span slot="header"><Icon></Icon></span>
       </Cell>
     </Group>
   </div>

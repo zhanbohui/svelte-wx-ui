@@ -3,13 +3,13 @@
     class="weui-textarea"
     bind:value={value}
     placeholder={placeholder}
+    required={required}
     disabled={disabled}
     readonly={readonly}
     rows={rows}></textarea>
   {#if showCounter}
     <div class="weui-textarea-counter">
-      <span>{value.length}</span>
-      /{maxLength}
+      <span>{value.length}</span>/{maxLength}
     </div>
   {/if}
 </template>
@@ -20,6 +20,7 @@
   export let value = '';
   export let disabled = false;
   export let readonly = false;
+  export let required = false;
   export let showCounter = false;
   export let maxLength = 200;
 

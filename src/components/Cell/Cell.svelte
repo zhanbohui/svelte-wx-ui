@@ -5,17 +5,17 @@
        class="weui-cell"
        class:weui-cell_access="{isLink}">
       <div class="weui-cell__hd">
-        <slot name="icon"></slot>
+        <slot name="header"></slot>
       </div>
       <div class="weui-cell__bd">
-        <slot name="title">{title}</slot>
-      </div>
-      <div class="weui-cell__ft">
-        {#if value}
-          {value}
+        {#if title}
+          {title}
         {:else}
           <slot></slot>
         {/if}
+      </div>
+      <div class="weui-cell__ft">
+        <slot name="footer"></slot>
       </div>
     </a>
   {:else if swiped}
@@ -23,17 +23,17 @@
       <div class="weui-cell__bd">
         <div class="weui-cell">
           <div class="weui-cell__hd">
-            <slot name="icon"></slot>
+            <slot name="header"></slot>
           </div>
           <div class="weui-cell__bd">
-            <slot name="title">{title}</slot>
-          </div>
-          <div class="weui-cell__ft">
-            {#if value}
-              {value}
+            {#if title}
+              {title}
             {:else}
               <slot></slot>
             {/if}
+          </div>
+          <div class="weui-cell__ft">
+            <slot name="footer">{value}</slot>
           </div>
         </div>
       </div>
@@ -44,17 +44,17 @@
   {:else}
     <div class="weui-cell">
       <div class="weui-cell__hd">
-        <slot name="icon"></slot>
+        <slot name="header"></slot>
       </div>
       <div class="weui-cell__bd">
-        <slot name="title">{title}</slot>
-      </div>
-      <div class="weui-cell__ft">
-        {#if value}
-          {value}
+        {#if title}
+          {title}
         {:else}
           <slot></slot>
         {/if}
+      </div>
+      <div class="weui-cell__ft">
+        <slot name="footer">{value}</slot>
       </div>
     </div>
   {/if}
