@@ -18,6 +18,8 @@ import Navbar from "./pages/Navbar.svelte";
 import Switch from "./pages/Switch.svelte";
 import Textarea from "./pages/Textarea.svelte";
 import Input from "./pages/Input.svelte";
+import Checkbox from "./pages/Checkbox.svelte";
+import HalfScreenDialog from "./pages/HalfScreenDialog.svelte";
 
 const routes = {
   '/': Home,
@@ -27,6 +29,7 @@ const routes = {
   '/switch': Switch,
   '/textarea': Textarea,
   '/input': Input,
+  '/checkbox': Checkbox,
   '/progress': Progress,
   '/preview': Preview,
   '/slider': Slider,
@@ -39,6 +42,7 @@ const routes = {
   '/loadmore': Loadmore,
   '/navbar': Navbar,
   '/searchbar': SearchBar,
+  '/halfscreendialog': HalfScreenDialog,
   '*': NotFound
 };
 

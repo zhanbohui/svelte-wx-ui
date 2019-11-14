@@ -34,6 +34,10 @@
       router: '/input'
     },
     {
+      name: 'checkbox',
+      router: '/checkbox'
+    },
+    {
       name: 'progress',
       router: '/progress'
     },
@@ -68,6 +72,10 @@
     {
       name: 'picker',
       router: '/picker'
+    },
+    {
+      name: 'half-screen-dialog',
+      router: '/halfscreendialog'
     },
     {
       name: 'load-more',

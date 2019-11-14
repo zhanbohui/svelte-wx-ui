@@ -16,6 +16,4 @@
 
 <script>
   export let label = '';
-  export let readonly = false;
-  export let disabled = false;
 </script>
