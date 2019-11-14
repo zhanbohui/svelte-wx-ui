@@ -4,7 +4,9 @@
       <div class="weui-search-bar__box">
         <i class="weui-icon-search"></i>
         <input type="search" class="weui-search-bar__input" bind:value={value} placeholder={placeholder} required>
-        <a href="javascript:void(0);" on:click={handleClear} class="weui-icon-clear"></a>
+        <a href="javascript:void(0);" on:click={handleClear} class="weui-icon-clear">
+          <i></i>
+        </a>
       </div>
       <label on:click={handleFocus} class="weui-search-bar__label">
         <i class="weui-icon-search"></i>

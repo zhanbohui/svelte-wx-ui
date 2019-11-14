@@ -1,7 +1,10 @@
 <template>
-  <div>
+  <div class="demo">
+    <h1>Icon</h1>
+    <p>图标</p>
+    <br>
     {#each icons as type, i}
-      <Icon size="50" type={type}></Icon>
+      <Icon size="25" type={type}></Icon>
     {/each}
   </div>
 </template>
@@ -36,3 +39,9 @@
     'waiting-circle'
   ];
 </script>
+
+<style>
+  h1, p {
+    padding-left: 30px;
+  }
+</style>

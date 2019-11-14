@@ -1,5 +1,5 @@
 <template>
-  <div style="background: #eeeeee;">
+  <div style="background: #eeeeee;height: 100vh">
     <h1>Preview</h1>
     <p>表单预览</p>
     <Preview>

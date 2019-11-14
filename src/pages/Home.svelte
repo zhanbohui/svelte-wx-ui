@@ -22,6 +22,14 @@
       router: '/button'
     },
     {
+      name: 'switch',
+      router: '/switch'
+    },
+    {
+      name: 'textarea',
+      router: '/textarea'
+    },
+    {
       name: 'progress',
       router: '/progress'
     },

@@ -15,12 +15,16 @@ import Dialog from "./pages/Dialog.svelte";
 import Picker from "./pages/Picker.svelte";
 import SearchBar from "./pages/SearchBar.svelte";
 import Navbar from "./pages/Navbar.svelte";
+import Switch from "./pages/Switch.svelte";
+import Textarea from "./pages/Textarea.svelte";
 
 const routes = {
   '/': Home,
   '/icon': Icons,
   '/footer': Footer,
   '/button': Button,
+  '/switch': Switch,
+  '/textarea': Textarea,
   '/progress': Progress,
   '/preview': Preview,
   '/slider': Slider,

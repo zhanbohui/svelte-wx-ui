@@ -4,7 +4,12 @@ Svelte UI components base on weui, come to see [document](https://zhanbohui.gith
 ### Components
 - [x] Badge
 - [x] Button
-- [] Form
+- [x] Switch
+- [x] Textarea
+- [] Input
+- [] Checkbox
+- [] Radio
+- [] Select
 - [x] Group
 - [x] Cell
 - [x] Slider
