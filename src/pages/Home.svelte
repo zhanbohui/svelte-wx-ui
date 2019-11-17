@@ -38,6 +38,10 @@
       router: '/checkbox'
     },
     {
+      name: 'radio',
+      router: '/radio'
+    },
+    {
       name: 'progress',
       router: '/progress'
     },

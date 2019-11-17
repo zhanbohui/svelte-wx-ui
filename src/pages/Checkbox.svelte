@@ -3,27 +3,21 @@
     <br>
     <h1>复选框样式展示</h1>
     <br>
-    <Form>
-      <FormItem>
-        <label slot="label">
-          <Checkbox></Checkbox>
-        </label>
-        <p>standard is dealt for u.</p>
-      </FormItem>
-      <FormItem>
-        <label slot="label">
-          <Checkbox></Checkbox>
-        </label>
-        <p>standard is dealticient for u.</p>
-      </FormItem>
-    </Form>
+    <Group>
+      <Checkbox options={options} bind:value={value}></Checkbox>
+    </Group>
+    <br>
+    <Button type="primary">下一步</Button>
   </div>
 </template>
 
 <script>
+  import Button from "../components/Button/Button.svelte";
   import Checkbox from "../components/Checkbox/Checkbox.svelte";
-  import FormItem from "../components/Form/FormItem.svelte";
-  import Form from "../components/Form/Form.svelte";
+  import Group from "../components/Cell/Group.svelte";
+  let options = ['first', 'second', 'third'];
+  let value = [];
+  $:console.log(value);
 </script>
 
 <style>

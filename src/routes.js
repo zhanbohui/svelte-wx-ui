@@ -19,6 +19,7 @@ import Switch from "./pages/Switch.svelte";
 import Textarea from "./pages/Textarea.svelte";
 import Input from "./pages/Input.svelte";
 import Checkbox from "./pages/Checkbox.svelte";
+import Radio from "./pages/Radio.svelte";
 import HalfScreenDialog from "./pages/HalfScreenDialog.svelte";
 
 const routes = {
@@ -30,6 +31,7 @@ const routes = {
   '/textarea': Textarea,
   '/input': Input,
   '/checkbox': Checkbox,
+  '/radio': Radio,
   '/progress': Progress,
   '/preview': Preview,
   '/slider': Slider,
