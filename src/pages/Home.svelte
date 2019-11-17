@@ -62,6 +62,10 @@
       router: '/flex'
     },
     {
+      name: 'grid',
+      router: '/grid'
+    },
+    {
       name: 'panel',
       router: '/panel'
     },

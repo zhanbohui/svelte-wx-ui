@@ -21,6 +21,7 @@ import Input from "./pages/Input.svelte";
 import Checkbox from "./pages/Checkbox.svelte";
 import Radio from "./pages/Radio.svelte";
 import HalfScreenDialog from "./pages/HalfScreenDialog.svelte";
+import Grid from "./pages/Grid.svelte";
 
 const routes = {
   '/': Home,
@@ -45,6 +46,7 @@ const routes = {
   '/navbar': Navbar,
   '/searchbar': SearchBar,
   '/halfscreendialog': HalfScreenDialog,
+  '/grid': Grid,
   '*': NotFound
 };
 

@@ -21,7 +21,7 @@ Svelte UI components base on weui, come to see [document](https://zhanbohui.gith
 - [x] Flex
 - [x] Footer
 - [] Gallery 
-- [] Grid
+- [x] Grid
 - [x] Icons
 - [x] Loadmore
 - [x] Panel
