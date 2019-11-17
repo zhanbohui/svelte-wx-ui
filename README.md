@@ -9,9 +9,9 @@ Svelte UI components base on weui, come to see [document](https://zhanbohui.gith
 - [x] Switch
 - [x] Textarea
 - [x] Input
-- [] Checkbox
-- [] Radio
-- [] Select
+- [x] Checkbox
+- [x] Radio
+- [x] Select
 - [x] Group
 - [x] Cell
 - [x] Slider
@@ -29,7 +29,7 @@ Svelte UI components base on weui, come to see [document](https://zhanbohui.gith
 - [x] Progress
 - [x] Actionsheet
 - [x] Dialog
-- [] Half-screen Dialog
+- [x] Half-screen Dialog
 - [] Msg
 - [x] Picker
 - [x] Toast
