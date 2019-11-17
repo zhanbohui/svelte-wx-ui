@@ -11,7 +11,7 @@
         <p>可放自定义内容</p>
       </HalfScreenDialog>
     {/if}
-    {#if visible1}
+<!--    {#if visible1}-->
       <HalfScreenDialog title="标题" showMore subTitle="子标题" bind:visible={visible1}>
         <p>可放自定义内容</p>
         <div slot="footer">
@@ -19,7 +19,6 @@
           <Button>副操作</Button>
         </div>
       </HalfScreenDialog>
-    {/if}
   </div>
 </template>
 

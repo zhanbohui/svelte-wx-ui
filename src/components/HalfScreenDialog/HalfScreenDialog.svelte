@@ -1,7 +1,9 @@
 <template>
-  <div style="opacity: {visible ? 1 : 0};">
-    <div class="weui-mask" on:click={handleClose}></div>
-    <div class="weui-half-screen-dialog weui-half-screen-dialog_show">
+  <div style="opacity: {visible ? 1 : 0};
+  display: {visible ? 'block' : 'none'}; transition: opacity 0.2s linear 0s;">
+    <div class="weui-mask weui-animate-fade-in" on:click={handleClose}></div>
+    <div class="weui-half-screen-dialog weui-animate-slide-up"
+         class:weui-half-screen-dialog_show={visible}>
       <div class="weui-half-screen-dialog__hd">
         <div class="weui-half-screen-dialog__hd__side">
           {#if showCloseBtn}

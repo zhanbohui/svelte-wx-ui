@@ -1,7 +1,9 @@
 <template>
   <div class="demo">
+    <br>
     <h1>Loadmore</h1>
     <p>加载更多</p>
+    <br>
     <Loadmore loading={true} text="正在加载"></Loadmore>
     <Loadmore text="暂无数据" line></Loadmore>
     <Loadmore line></Loadmore>
@@ -14,6 +16,6 @@
 
 <style>
   h1, p {
-    padding-left: 30px;
+    text-align: center;
   }
 </style>

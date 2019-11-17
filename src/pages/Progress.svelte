@@ -1,11 +1,9 @@
 <template>
   <div style="background: #fff">
-    <h1>
-      Progress
-    </h1>
-    <p>
-      进度条
-    </p>
+    <br>
+    <h1>Progress</h1>
+    <p>进度条</p>
+    <br>
     <div class="demo">
       <Progress percent={percent} on:cancel={handleCancel}></Progress>
     </div>
@@ -40,7 +38,7 @@
 
 <style>
   h1, p {
-    padding-left: 30px;
+    text-align: center;
   }
   .demo {
     padding: 20px 10px;

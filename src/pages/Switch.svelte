@@ -1,7 +1,8 @@
 <template>
   <div class="demo">
     <br>
-    <h1>开关样式展示</h1>
+    <h1>Switch</h1>
+    <p>开关</p>
     <br>
     <Form title="开关样式">
       <FormItem label="标题文字">

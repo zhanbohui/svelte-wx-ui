@@ -1,7 +1,9 @@
 <template>
   <div class="demo">
+    <br>
     <h1>Flex</h1>
     <p>Flex布局</p>
+    <br>
     <Flex>
       <FlexItem>
         <div class="placeholder">weui</div>
@@ -61,7 +63,7 @@
     height: 100vh;
   }
   h1, p {
-    padding-left: 30px;
+    text-align: center;
   }
   .placeholder {
     margin: 5px;

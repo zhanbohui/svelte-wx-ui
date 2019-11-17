@@ -1,7 +1,9 @@
 <template>
   <div>
+    <br>
     <h1>Slider</h1>
     <p>滑块</p>
+    <br>
     <div class="demo">
       <Slider value={0}></Slider>
     </div>
@@ -17,7 +19,7 @@
 
 <style>
   h1,p {
-    padding-left: 30px;
+    text-align: center;
   }
   .demo {
     padding: 30px;

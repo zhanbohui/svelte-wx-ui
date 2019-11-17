@@ -1,5 +1,6 @@
 <template>
   <div class="demo">
+    <br>
     <h1>Icon</h1>
     <p>图标</p>
     <br>
@@ -42,6 +43,6 @@
 
 <style>
   h1, p {
-    padding-left: 30px;
+    text-align: center;
   }
 </style>

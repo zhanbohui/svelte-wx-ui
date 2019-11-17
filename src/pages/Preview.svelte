@@ -1,7 +1,9 @@
 <template>
   <div style="background: #eeeeee;height: 100vh">
+    <br>
     <h1>Preview</h1>
     <p>表单预览</p>
+    <br>
     <Preview>
       <div slot="header">
         <PreviewItem label="付款金额" value={24000}>
@@ -25,6 +27,6 @@
 
 <style>
   h1,p {
-    padding-left: 30px;
+    text-align: center;
   }
 </style>

@@ -1,5 +1,6 @@
 <template>
   <div class="demo">
+    <br>
     <h1>SearchBar</h1>
     <p>搜索框</p>
     <br>
@@ -33,6 +34,6 @@
     height: 100vh;
   }
   h1, p {
-    padding-left: 30px;
+    text-align: center;
   }
 </style>

@@ -1,8 +1,6 @@
 <template>
   <br>
-  <h1>
-    文本域
-  </h1>
+  <h1>Textarea</h1>
   <p>输入更多内容的输入区样式展示</p>
   <br>
   <Form title="问题描述">

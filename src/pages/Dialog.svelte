@@ -1,7 +1,9 @@
 <template>
   <div class="demo">
-    <h4>Dialog</h4>
+    <br>
+    <h1>Dialog</h1>
     <p>对话框</p>
+    <br>
     <Button on:click={() => {ios1 = true}}>IOS Dialog样式一</Button>
     <Button on:click={() => {ios2 = true}}>IOS Dialog样式二</Button>
     <Button on:click={() => {and1 = true}}>android Dialog样式二</Button>
@@ -53,7 +55,7 @@
 </script>
 
 <style>
-  h4, p {
-    padding-left: 30px;
+  h1, p {
+    text-align: center;
   }
 </style>

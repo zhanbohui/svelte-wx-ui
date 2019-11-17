@@ -1,10 +1,8 @@
 <template>
-  <h1>
-    Footer
-  </h1>
-  <p>
-    页脚
-  </p>
+  <br>
+  <h1>Footer</h1>
+  <p>页脚</p>
+  <br>
   <div class="demo">
     <Footer fixed={false} text={text}></Footer>
   </div>
@@ -45,11 +43,8 @@
 </script>
 
 <style>
-  h1 {
-    padding-left: 30px;
-  }
-  p {
-    padding-left: 30px;
+  h1, p {
+    text-align: center;
   }
   .demo {
     padding: 20px;

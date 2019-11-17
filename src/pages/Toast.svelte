@@ -1,5 +1,6 @@
 <template>
   <div class="demo">
+    <br>
     <h1>Toast</h1>
     <p>弹出式提示</p>
     <br>
@@ -21,6 +22,6 @@
 
 <style>
   h1, p {
-    padding-left: 30px;
+    text-align: center;
   }
 </style>
