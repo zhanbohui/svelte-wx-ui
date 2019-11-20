@@ -5,7 +5,11 @@
        class="weui-cell"
        class:weui-cell_access="{isLink}">
       <div class="weui-cell__hd">
-        <slot name="header"></slot>
+        {#if label}
+          <div class="weui-label">{label}</div>
+        {:else}
+          <slot name="header"></slot>
+        {/if}
       </div>
       <div class="weui-cell__bd">
         {#if title}
@@ -23,7 +27,11 @@
       <div class="weui-cell__bd">
         <div class="weui-cell">
           <div class="weui-cell__hd">
-            <slot name="header"></slot>
+            {#if label}
+              <div class="weui-label">{label}</div>
+            {:else}
+              <slot name="header"></slot>
+            {/if}
           </div>
           <div class="weui-cell__bd">
             {#if title}
@@ -44,7 +52,11 @@
   {:else}
     <div class="weui-cell">
       <div class="weui-cell__hd">
-        <slot name="header"></slot>
+        {#if label}
+          <div class="weui-label">{label}</div>
+        {:else}
+          <slot name="header"></slot>
+        {/if}
       </div>
       <div class="weui-cell__bd">
         {#if title}
@@ -64,6 +76,7 @@
   import { onMount, onDestroy } from "svelte";
   import { push } from "svelte-spa-router";
 
+  export let label = '';
   export let title = '';
   export let value = '';
   export let isLink = false;

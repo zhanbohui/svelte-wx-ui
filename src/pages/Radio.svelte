@@ -15,8 +15,6 @@
 <script>
   import Group from "../components/Cell/Group.svelte";
   import Radio from "../components/Radio/Radio.svelte";
-  import FormItem from "../components/Form/FormItem.svelte";
-  import Form from "../components/Form/Form.svelte";
   import Button from "../components/Button/Button.svelte";
   let options = ['apple', 'huawei', 'xiaomi'];
   let value = '';
